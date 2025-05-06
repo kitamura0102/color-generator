@@ -8,15 +8,21 @@
   </head>
   <body>
     <div class="container">
-      <h1>Color Generator</h1>
-      <div class="color-palette">
-        <div class="color-boxes c-1"></div>
-        <div class="color-boxes c-2"></div>
-        <div class="color-boxes c-3"></div>
-        <div class="color-boxes c-4"></div>
+      <div class="select-the-colors">
+        <select name="select-color" id="select-color" class="select-color">
+          <option value="monochrome" selected>Choose one</option>
+          <option value="monochrome-dark">Monochrome-dark</option>
+          <option value="monochrome-light">Monochrome-light</option>
+          <option value="analogic">Analogic</option>
+          <option value="complement">Complement</option>
+          <option value="analogic-complement">Analogic-complement</option>
+        </select>
+        <button type="submit" id="btn" class="btn">Get Colors</button>
+      </div>
+
+      <div class="color-palette" id="color-palette">
       </div>
     </div>
-
     <script src="/index.js"></script>
   </body>
 </html>

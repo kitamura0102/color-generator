@@ -1,43 +1,57 @@
-html, body {
-    margin: 0;
-    padding: 0;
-    background-color: aquamarine;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    
+html,
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
-.container{
-    background-color: antiquewhite;
-    width: 700px;
-    height: 800px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+.container {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border: solid 1px grey;
+  padding: 60px;
 }
-.color-palette{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 100%;
+.color-palette {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
 }
-.color-boxes{
-    border: 1px solid black;
-    width: 175px;
-    height: 99.9%;
+.color-boxes {
+  width: 175px;
+  height: 99.9%;
+  text-align: c;
 }
-.c-1{
-background-color: blue;
+.select-the-colors {
+  margin: 0 0 30px 0;
 }
-.c-2{
-    background-color: red;
+
+.select-color {
+  padding: 15px;
+  border: solid 1px gray;
+  font-size: 1.3rem;
+  margin: 0;
+  border-radius: 5px;
 }
-.c-3{
-    background-color: yellow;
+.select-color:focus{
+    outline: none;
+    border-color: #0056b3;
 }
-.c-4{
-    background-color: blueviolet;
+.btn {
+  padding: 15px;
+  margin: 0;
+  font-size: 1.3rem;
+  border: 1px solid gray;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.color-ids{
+    font-size: 1.3rem;
 }
